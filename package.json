@@ -1,0 +1,23 @@
+{
+  "name": "widget-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "example": "cp dist/widget.js example && w3 example",
+    "deploy": "node deploy.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@bundlr-network/client": "^0.7.14",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "rollup": "^2.76.0",
+    "rollup-plugin-svelte": "^7.1.0",
+    "svelte": "^3.49.0",
+    "w3": "^2.0.2"
+  }
+}
