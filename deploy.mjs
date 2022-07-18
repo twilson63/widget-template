@@ -16,7 +16,8 @@ try {
   const tags = [
     {name: 'Content-Type', value: 'application/javascript'},
     {name: 'App-Name', value: 'Permapage-Widget'},
-    {name: 'App-Version', value: '0.0.0'},
+    {name: 'App-Version', value: '0.0.1'},
+    {name: 'Widget-Id', value: 'widget-element-id'},
     {name: 'Widget-Name', value: 'widget-name'},
     {name: 'Widget-Desc', value: 'A description'},
     {name: 'Widget-Docs', value: 'https://permanotes.app/#/notes/uwzAOorYh2cYTHG9YQJFS9hSLI3erYMa7N9L4NndWOI'}
